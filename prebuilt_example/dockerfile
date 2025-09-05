@@ -1,0 +1,12 @@
+FROM debian:latest
+
+COPY . /usr/src
+WORKDIR "/usr/src"
+
+RUN mkdir _BOB_OUT
+RUN mkdir _BOB_OUT/x86_64-windows
+RUN mkdir _BOB_OUT/x86_64-linux
+RUN mv { windows_binary } _BOB_OUT/x86_64-windows
+RUN mv { linux_binary } _BOB_OUT/x86_64-linux
+
+CMD ["/bin/bash", "-c", "cd _BOB_OUT && tar -cf - ./*"]

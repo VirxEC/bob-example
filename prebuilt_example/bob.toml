@@ -1,0 +1,11 @@
+# This example just packages pre-built binaries,
+# though you would never do this in practice.
+
+[[config]]
+project_name = "prebuild_example"
+bot_configs = ["./bot.toml"]
+
+[config.builder_config]
+builder_type = "custom"
+dockerfile = "./dockerfile"
+values = { windows_binary = "./rust_example.exe", linux_binary = "./rust_example" }

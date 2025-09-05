@@ -1,0 +1,7 @@
+[settings]
+name = "BOB Custom example"
+agent_id = "bob_examples/custom_example"
+# loadout_file = "loadout.toml"
+run_command = "echo should be overwritten by bob"
+run_command_linux = "echo should be overwritten by bob"
+hivemind = false
