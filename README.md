@@ -1,6 +1,6 @@
 # Bob examples repo
 
-This is a repo contains examples of how you can use bob to build bots. It also
+This is a repo that contains examples of how you can use bob to build bots. It also
 contains a bob.toml in the root of the repo which builds all of the examples
 as one example botpack. Start with looking at the `bob.toml` file in the root
 directory.
