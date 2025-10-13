@@ -2,7 +2,7 @@
 # though you would never do this in practice.
 
 [[config]]
-project_name = "prebuild_example"
+project_name = "prebuilt_example"
 bot_configs = ["./bot.toml"]
 
 [config.builder_config]

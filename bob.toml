@@ -1,1 +1,1 @@
-dependencies = ["prebuilt_example/bob.toml", "rust_example/bob.toml"]
+dependencies = ["prebuilt_example/bob.toml", "rust_example/bob.toml", "Elementv5/bob.toml"]
