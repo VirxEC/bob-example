@@ -1,3 +1,6 @@
 [submodule "Elementv5"]
 	path = Elementv5
 	url = https://github.com/VirxEC/Elementv5.git
+[submodule "csharp-example"]
+	path = csharp-example
+	url = https://github.com/VirxEC/csharp-example.git
